@@ -1,0 +1,14 @@
+
+.contacto{
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #F5F5F5;
+    padding: 35px 0px;
+    display: flex;
+    align-items: initial;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+
+    
+
+}
