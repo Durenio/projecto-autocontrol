@@ -1,0 +1,212 @@
+@media (max-width:1024px) {
+
+
+    body .topoheader {
+        justify-content: center;
+        align-items: center;
+    }
+
+    body .topoheader .info_contacto {
+        display: none;
+    }
+
+    body .topoheader .redes_sociais {
+        margin: 0;
+    }
+
+    header .menu-btn {
+        display: block;
+    }
+
+
+
+
+    .contacto {
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .banner_agendar h2 {
+        width: 95%;
+
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+
+
+    header nav {
+        display: none;
+
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 40px !important;
+        align-items: flex-start;
+        padding-left: 8vw !important;
+        padding-bottom: 15vh;
+    }
+
+    footer p {
+        width: 100%;
+    }
+
+    .direitos_reservados {
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .direitos_reservados p {
+        font-size: 12px;
+        text-align: center;
+
+
+    }
+
+
+    .sobre_nos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 40px;
+
+    }
+
+    .sobre_nos .text {
+        width: 100%;
+
+    }
+    .sobre_nos .text p{
+        
+        font-weight: 200;
+    }
+    .missao p, .visao p, .valores p{
+        font-weight: 200;
+    }
+
+    .sobre_nos .text .btn {
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .contactos {
+        flex-direction: column;
+        margin: 0px 25px;
+
+    }
+    .formulario{
+        
+        width: 90%;
+        padding: 0 25px;
+        
+    }
+    .contactfisico{
+        width: 90%;
+        padding: 0 25px;
+        
+
+    }
+    
+    .contactoss{
+        flex-direction: column;
+        gap: 12vh;
+    }
+
+    .contacto .text p{
+
+        text-align: left;
+    }
+        .contacto .text h2{
+
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+
+
+    .slaider .slaide h1 {
+
+        top: 100px;
+        z-index: 1;
+        color: white;
+        border: 0;
+        width: 100vw;
+        left: 50px;
+
+        font-size: 25px;
+
+    }
+    .slaider .slaide .sep-princ{
+        left: 40px;
+        top: 165px;
+    }
+
+    .slaider .slaide a {
+
+
+        left: 50px;
+        bottom: 160px;
+
+
+    }
+
+    .slaider .slaide img {
+
+        height: 400px;
+    }
+
+
+    .slaider .manual-btn {
+
+        
+        margin-right: -20px;
+        font-size: 20px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .slaider .navigation-auto {
+        bottom: 10vh;
+    }
+
+
+
+
+.depoimento .servicos{
+
+
+   gap: 120px;
+    
+}
+
+
+    .depoimento p {
+
+        font-size: 17px;
+
+
+    }
+
+    .sobre_nos .img_banner {
+        width: 90%;
+        height: 220px;
+    }
+
+        .sobre_nos .img_banner div {
+        width: 100%;
+        height: 220px;
+    }
+
+    
+
+}

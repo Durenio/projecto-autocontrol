@@ -1,0 +1,55 @@
+.missao p, .visao p, .valores p{
+    color: rgb(84, 84, 84);
+    font-weight: 500;
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Source Sans 3', sans-serif;
+    
+   
+
+}
+
+.missao, .visao, .valores{
+    font-family: 'Source Sans 3', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 100px ;
+    align-items: center;
+    height: auto;
+    gap:40px;
+    background-color: #F5F5F5;
+    
+    
+    
+}
+.missao .missao_img{
+    width: auto;
+    
+    height: auto;
+
+}
+
+.missao .missao_img img, .visao .visao_img img, .valores .valores_img img{
+    width: 350px;
+    height: 300px;
+
+}
+
+
+.visao .visao_img{
+    width: auto;
+    
+    height: auto;
+
+}
+
+.valores .valores_img{
+    width: auto;
+    
+    height: auto;
+
+}
+
+
+
+

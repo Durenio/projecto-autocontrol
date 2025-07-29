@@ -1,0 +1,196 @@
+
+
+.agendar{
+   
+    display: flex;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+
+
+    
+}
+
+
+
+
+
+
+
+.contacto_legend{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 0px;
+}
+
+.contacto_legend img{
+
+    position: absolute;
+    top: -14px;
+    width: 60px;
+    height: 60px;
+}
+
+    .contactos{
+        margin: 0 15vh;
+        height: auto;
+        background-color: #f5f7fb;
+        border-radius: 10px;
+        padding-top: 60px; padding-bottom: 80px;
+        justify-content: center;
+        display: flex;
+        gap: 60px;
+        font-family: 'Noto Sans TC', sans-serif ;
+
+    }
+
+    .formulario{
+
+        width: 40%;
+        height: 100%;
+        color: #fff;
+        
+    }
+    .formulario p{
+        font-size: 17px;
+        line-height: 25px;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 17px;
+    }
+    .formulario input{
+        margin-bottom: 30px;
+        outline: none;
+        padding: 5px 10px;
+        border-radius: 7px;
+        border:  none;
+    }
+    .formulario label{
+        color: #181818;
+        font-size: 15px;
+        display: flex;
+        margin-bottom: 10px;
+        margin-left: 5px;
+
+    }
+    .formulario .assuntoinput{
+        
+        width: 95%;
+        height: 30px;
+
+    }
+    .formulario textarea{
+        margin-bottom: 15px;
+        outline: none;
+        padding: 5px 10px;
+        border-radius: 7px;
+        border:  none;
+        width: 95%;
+        height: 200px;
+
+    }
+    .formulario .displayinput{
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .formulario .displayinput div{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    }
+    .formulario .displayinput input{
+        width: 90% !important;
+        height: 30px;
+    }
+
+    .formulario button{
+        background-color: orange;
+        color: #000;
+        border: 2px solid transparent;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.7s;
+        font-size: 15px;
+        text-decoration: solid;
+        font-weight: 600;
+
+    }
+    .formulario button:hover{
+        background-color: transparent;
+        color: #96A4D3;
+        border: 2px solid orange ;
+    }
+    .contactfisico{
+        width: 50%;
+        height: 100%;
+
+    }
+
+    .contactoss{
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-between;
+    }
+    .contactfisico p{
+        font-size: 17px;
+        line-height: 25px;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 17px;
+    }
+
+    .contactfisico .contact img{
+
+
+    width: 17px;
+    height: 17px;
+
+}
+.contactfisico .contact a{
+
+
+    text-decoration: none;
+    color: #000;
+
+}
+    
+
+   .contactfisico .contact ul{
+
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+}
+.contactfisico .contact li {
+
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+    font-size: 13px;
+
+}
+    .contactfisico .iframe{
+        width: 100%;
+        height: 200px;
+
+    }
+
+    iframe{
+        border-radius: 10px;
+    border: 0;
+    height: 100%;
+    width:100% ;
+}
