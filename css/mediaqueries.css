@@ -44,6 +44,11 @@
 
     }
 
+    header .logo .img1 {
+    margin-left: 50px;
+    
+    }
+
     footer {
         flex-direction: column;
         gap: 40px !important;
