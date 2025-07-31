@@ -141,20 +141,20 @@
         color: white;
         border: 0;
         width: 100vw;
-        left: 50px;
+        left: 30px;
 
         font-size: 25px;
 
     }
     .slaider .slaide .sep-princ{
-        left: 40px;
+        left: 20px;
         top: 165px;
     }
 
     .slaider .slaide a {
 
 
-        left: 50px;
+        left: 30px;
         bottom: 160px;
 
 
@@ -167,7 +167,13 @@
 
     .slaider .manual-navigation {
 
-    top: 0;
+    top: 110px;
+
+}
+    .slaider .navigation-auto {
+
+    bottom: 2vh;
+
 
 }
 
