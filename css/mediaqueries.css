@@ -76,7 +76,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 60px 40px;
+        padding: 60px 20px;
 
     }
 
@@ -165,7 +165,7 @@
 
     .slaider .manual-navigation {
 
-        top: 110px;
+        top: 125px;
     }
 
 
@@ -179,7 +179,7 @@
     }
 
     .slaider .navigation-auto {
-        bottom: 8vh;
+        bottom: 5vh;
     }
 
 
