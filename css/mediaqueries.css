@@ -153,10 +153,8 @@
 
     .slaider .slaide a {
 
-
         left: 30px;
         bottom: 160px;
-
 
     }
 
@@ -167,20 +165,13 @@
 
     .slaider .manual-navigation {
 
-    top: 110px;
+        top: 110px;
+    }
 
-}
-    .slaider .navigation-auto {
-
-    bottom: 2vh;
-
-
-}
 
 
     .slaider .manual-btn {
 
-        
         margin-right: -20px;
         font-size: 20px;
         width: 25px;
@@ -188,7 +179,7 @@
     }
 
     .slaider .navigation-auto {
-        bottom: 10vh;
+        bottom: 8vh;
     }
 
 
