@@ -4,11 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/slaide2.css">
     <link rel="stylesheet" href="css/slaide3.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/agendar.css">
+    <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
 
 
@@ -17,6 +21,7 @@
 
 <body>
 
+    <div id="topoheader"></div>
     <div class="topoheader">
         <div class="info_contacto">
             <img src="marker_50px.png" alt="">
@@ -142,34 +147,34 @@
         <div class="filtro"></div>
     </div>
     <div class="voltarinicio" id="iniciobtn">
-        <a href="" onclick="voltaraoinicio()"><img src="up_50px.png" alt=""></a>
+        <a href="#topoheader" onclick="voltaraoinicio()"><img src="up_50px.png" alt=""></a>
     </div>
 
     <section class="sobre_nos" id="sobre">
         <div class="text">
-            <h3>Auto Control</h3>
-            <h1>Sobre nós</h1>
+            <h3 class="animate-slide-up">Auto Control</h3>
+            <h1 class="animate-slide-up">Sobre nós</h1>
             <hr class="separador">
-            <p>
+            <p class="animate-slide-up">
                 Auto Control – Centro Automotivo é uma oficina de referência em Angola, especializada na manutenção e
                 reparação de veículos multimarcas. Com unidades localizadas estrategicamente em Luanda - Benfica e
                 Viana, oferecemos soluções completas para o seu automóvel, sempre com foco na qualidade, segurança e
                 inovação.
             </p>
-            <p>Somos reconhecidos principalmente pelo nosso serviço especializado em sistemas de ar condicionado
+            <p class="animate-slide-up">Somos reconhecidos principalmente pelo nosso serviço especializado em sistemas de ar condicionado
                 automotivo, incluindo diagnóstico avançado, recarga de gás, limpeza de filtros e higienização. Mas vamos
                 além: oferecemos uma vasta gama de serviços automotivos — da mecânica geral ao recondicionamento de
                 interiores, pintura profissional, suspensão, troca de óleo, venda e montagem de pneus, reparação de
                 motores, entre outros.</p>
-            <h3>Visão</h3>
+            <h3 class="animate-slide-up">Visão</h3>
 
             <p>Ser reconhecida como a oficina de referência em Angola pela excelência no atendimento, pela inovação nos
                 serviços e pelo compromisso com a qualidade, tornando-se a primeira escolha dos clientes que valorizam
                 profissionalismo, honestidade e resultados duradouros.
             </p>
-            <h3>Missão</h3>
+            <h3 class="animate-slide-up">Missão</h3>
 
-            <p>
+            <p class="animate-slide-up">
                 Garantir soluções automotivas completas e de confiança, através de um serviço técnico especializado,
                 equipamentos modernos e um atendimento próximo, humano e eficiente. Trabalhamos todos os dias para
                 proporcionar segurança, comodidade e tranquilidade a quem nos confia o seu veículo, promovendo relações
@@ -179,8 +184,8 @@
         </div>
 
         <div class="img_banner">
-            <div class="img-border"></div>
-            <div class="text_img">
+            <div class="img-border animate-slide-up"></div>
+            <div class="text_img animate-slide-up">
 
             </div>
         </div>
@@ -196,9 +201,9 @@
         <div class="text">
 
 
-            <h2>Serviços que oferecemos</h2>
+            <h2 class="animate-slide-up">Serviços que oferecemos</h2>
 
-            <p>
+            <p class="animate-slide-up">
                 Cuidamos do seu veículo com tecnologia, experiência e atenção a cada detalhe
             </p>
         </div>
@@ -213,39 +218,37 @@
 
                     <div class="depoimento">
 
-                        <div class="servicos">
+                        <div class="servicos animate-slide-up">
 
                             <div class="servico">
                                 <img src="wedding.png" alt="">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente harum
-                                    facere quia soluta incidunt</p>
+                                <h3>Ar condicionado</h3>
+                                <p>Garantimos ar limpo e fresco, sem odores, com manutenção preventiva que prolonga a vida útil do equipamento.Diagnóstico completo do sistema, detecção de fugas, recarga de gás refrigerante, etc..</p>  
+                                
 
                                 <div></div>
-                                <button>Agendar Checkup</button>
+                                <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
 
                             <div class="servico">
                                 <img src="camera_on_tripod_50px.png" alt="">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente harum
-                                    facere quia soluta incidunt</p>
+                                <h3>Diagnostico Automotivo</h3>
+                                <p> Utilizamos tecnologia moderna para identificar falhas elétricas e mecânicas – desde avarias no motor até no sistema elétrico ou de climatização.</p>
 
 
                                 <div></div>
-                                <button>Agendar Checkup</button>
+                                <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
                             <div class="servico">
                                 <img src="house_24px.png" alt="">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente harum
-                                    facere quia soluta incidunt</p>
+                                <h3>Suspensão</h3>
+                                <p>Serviços de alinhamento e balanceamento de rodas, inspeção e substituição de amortecedores, foles e terminais. Garantia de estabilidade, segurança e melhor desempenho da condução.</p>
 
 
                                 <div></div>
-                                <button>Agendar Checkup</button>
+                                <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
                         </div>
@@ -263,37 +266,67 @@
 
                             <div class="servico">
                                 <img src="wedding.png" alt="">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente harum
-                                    facere quia soluta incidunt</p>
+                                <h3>Pneus</h3>
+                                <p>Venda de pneus multimarcas, montagem, reparação de furos, alinhamento e balanceamento profissional.</p>
 
                                 <div></div>
-                                <button>Agendar Checkup</button>
+                                <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
 
                             <div class="servico">
                                 <img src="camera_on_tripod_50px.png" alt="">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente harum
-                                    facere quia soluta incidunt</p>
+                                <h3>Troca de Óleo e Filtro</h3>
+                                <p>Substituição de óleo de motor, filtros de óleo, ar, combustível e lubrificantes originais de qualidade.</p>
 
 
                                 <div></div>
-                                <button>Agendar Checkup</button>
+                                <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
                             <div class="servico">
                                 <img src="house_24px.png" alt="">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente harum
-                                    facere quia soluta incidunt</p>
+                                <h3>Pintura & Bate Chapa</h3>
+                                <p>Reparação de amolgadelas, retocagem de pintura, polimento e tratamento anticorrosão.</p>
 
 
                                 <div></div>
-                                <button>Agendar Checkup</button>
+                                <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slaide">
+
+
+                    <div class="depoimento">
+
+                        <div class="servicos">
+
+                            <div class="servico">
+                                <img src="wedding.png" alt="">
+                                <h3>Recauchutagem de Pneus</h3>
+                                <p>Processo de renovação do piso do pneu, preservando a carcaça e aumentando sua durabilidade.
+                                    uma solução mais econômica e sustentável em comparação à compra de pneus novos</p>
+
+                                <div></div>
+                                <a href="agendar.html">Agendar Checkup</a>
+
+                            </div>
+
+                            <div class="servico">
+                                <img src="camera_on_tripod_50px.png" alt="">
+                                <h3>Peças Automotivas</h3>
+                                <p>Venda de componentes originais e genéricos para veículos multimarcas: filtros, correias, amortecedores, radiadores, compressores de ar‑condicionado, entre outros.</p>
+
+
+                                <div></div>
+                                <a href="agendar.html">Agendar Checkup</a>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -312,9 +345,9 @@
 
         <img src="triangulo-cinza.png" alt="">
         <div class="text">
-            <h2>Agende o seu atendimento</h2>
+            <h2 class="animate-slide-up">Agende o seu atendimento</h2>
 
-            <p>
+            <p class="animate-slide-up">
                 Escolha o serviço e envie seus dados - responderemos o mais rápido possível
             </p>
         </div>
@@ -324,7 +357,7 @@
 
 
 
-    <section class="contactos">
+    <section class="contactos animate-slide-up">
 
 
 
@@ -470,6 +503,7 @@
 
     <script src="javascript/script2.js"></script>
     <script src="javascript/script.js"></script>
+    <script src="javascript/animations.js"></script>
     <script src="javascript/cart.js"></script>
 
 
