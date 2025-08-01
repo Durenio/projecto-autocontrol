@@ -431,10 +431,11 @@ header .menu-btn:hover {
 .voltarinicio {
     
     position: fixed;
+    align-items: center;
     bottom: 4vh;
     right: 4vw;
     background-color: #FFB901;
-    padding: 7px;
+    padding: 6px;
     z-index: 1;
     cursor: pointer;
     display: none;
