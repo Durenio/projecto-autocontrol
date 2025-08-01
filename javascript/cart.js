@@ -5,7 +5,7 @@ window.onscroll = function() {
 
     if (scrollPosition > 50) {
         header.style.top = '0'; // posição do cabeçalho quando rolar para baixo
-        btnvoltar.style.display = 'block';
+        btnvoltar.style.display = 'flex';
         
     } else {
         header.style.top = '37px'; // posição do cabeçalho quando no topo da página
