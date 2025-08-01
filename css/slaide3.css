@@ -1,7 +1,7 @@
 .depoimentos{
     
     margin: 0px 0px;
-    background-color: rgba(232, 232, 232, 0.366);
+    background-color:  #f5f7fb;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -16,7 +16,7 @@
     align-items: center;
     flex-direction: column;
     padding: 60px 0px;
-    background-color: rgba(232, 232, 232, 0.366);
+    background-color:  #f5f7fb;
 }
 .depoimento_legend img{
 
