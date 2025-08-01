@@ -1,0 +1,12 @@
+/* Animação de baixo para cima */
+.animate-slide-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+  }
+  
+  .animate-slide-up.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
