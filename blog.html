@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*seccão blog*/
+
+        .text-blog {
+            margin-top: 60px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text-blog h2 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-family: 'Source Sans 3', sans-serif;
+        }
+
+        .text-blog p {
+            color: rgb(84, 84, 84);
+            font-weight: 500;
+            text-align: center;
+            line-height: 30px;
+            width: 55%;
+            font-family: 'Source Sans 3', sans-serif;
+        }
+
+        .carrossel {
+            font-family: 'Source Sans 3', sans-serif;
+            background-color: white;
+            box-sizing: border-box;
+            display: flex;
+            gap: 15px;
+            margin: 50px 50px 90px 50px;
+        }
+
+        #blogPrincipal {
+            height: auto;
+            flex-wrap: wrap;
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+        }
+
+        #blogPrincipal video {
+            width: 100%;
+            height: 450px;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        #blogPrincipal p {
+            font-family: "Work Sans", sans-serif;
+            display: block;
+            font-size: 14.5px;
+            line-height: 23px;
+            width: 95%;
+            color: #1a1a1a;
+            text-align: justify;
+        }
+
+        #blogPrincipal h3 {
+            font-family: "Work Sans", sans-serif;
+            color: #0C2B4B;
+            font-weight: 700;
+        }
+
+        #blogPrincipal h4 {
+            font-family: "Work Sans", sans-serif;
+            font-weight: 400;
+            color: #d5d5d5;
+        }
+
+        #blogPrincipal a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .blogs {
+            width: auto;
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog {
+            font-family: Raleway, sans-serif;
+            white-space: wrap;
+            width: 360px;
+            background-color: aqua;
+            height: max-content;
+            cursor: pointer;
+        }
+
+        .blog video, img {
+            width: 100%;
+            height: 60%;
+            object-fit: cover;
+        }
+
+        .blog div {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            height: 30%;
+            background-color: red;
+        }
+
+        .blog h3 {
+            font-family: "Work Sans", sans-serif;
+            color: #0C2B4B;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .blog p {
+            display: none;
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+
+        .blog p a:hover {
+            text-decoration: underline;
+        }
+
+        .blog h6 {
+            color: rgb(157, 157, 157);
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+
+        /*fim seccão blogs*/
+    </style>
+</head>
+
+<body>
+    <section class="carrossel">
+        <div id="blogPrincipal">
+
+            <video src="../static/videos/video3.mp4" controls></video>
+
+            <h3>Conheça brevemente o nosso país</h3>
+            <p>
+                Angola é terra de força, resiliência e esperança. Das cicatrizes da guerra ergueram-se sonhos, e do
+                passado de lutas nasceu um futuro de reconstrução. Cada rua pavimentada, cada edifício erguido, cada
+                sorriso estampado no rosto do nosso povo é prova de que Angola não se dobra diante das
+                dificuldades—ela renasce, avança e cresce.
+                O 4 de fevereiro não é apenas uma data no calendário; é um símbolo da coragem de um povo que se
+                levantou contra a opressão em busca da sua independência. É a lembrança de que liberdade e soberania
+                foram conquistadas com suor, sacrifício e sangue daqueles que acreditaram num amanhã melhor.
+                Hoje, celebramos não apenas o passado, mas também o presente e o futuro de uma nação que continua a
+                evoluir. Porque ser angolano é carregar no peito a chama da resistência e o desejo incessante de
+                progresso.
+                <span><a href="">Instagram</a></span>
+            </p>
+
+            <h4>By: “ViewsOfAngola”</h4>
+        </div>
+
+        <div class="blogs">
+            <div class="blog">
+                <video src="../static/videos/video3.mp4"></video>
+                <div>
+                    <h3>Conheça brevemente o nosso país</h3>
+                    <p>
+                        Angola é terra de força, resiliência e esperança. Das cicatrizes da guerra ergueram-se
+                        sonhos, e do passado de lutas nasceu um futuro de reconstrução. Cada rua pavimentada, cada
+                        edifício erguido, cada sorriso estampado no rosto do nosso povo é prova de que Angola não se
+                        dobra diante das dificuldades—ela renasce, avança e cresce.
+                        O 4 de fevereiro não é apenas uma data no calendário; é um símbolo da coragem de um povo que
+                        se levantou contra a opressão em busca da sua independência. É a lembrança de que liberdade
+                        e soberania foram conquistadas com suor, sacrifício e sangue daqueles que acreditaram num
+                        amanhã melhor.
+                        Hoje, celebramos não apenas o passado, mas também o presente e o futuro de uma nação que
+                        continua a evoluir. Porque ser angolano é carregar no peito a chama da resistência e o
+                        desejo incessante de progresso.
+                        <span>Instagram</span>
+                    </p>
+
+                    <h6>By: “ViewsOfAngola”</h6><br>
+                </div>
+            </div>
+
+            <div class="blog">
+                <img src="bb.jpg">
+                <div>
+                    <h3>Praias de Angola, Beleza Natural e Encanto Tropical</h3>
+                    <p>
+                        Angola possui um litoral extenso e deslumbrante, banhado pelo Oceano Atlântico, repleto de
+                        praias paradisíacas que encantam turistas nacionais e estrangeiros. As praias angolanas
+                        combinam paisagens exóticas, águas cristalinas e um clima agradável, tornando-se destinos
+                        perfeitos para lazer, esportes aquáticos e turismo ecológico.
+                        <span><a href="">Instagram</a></span>
+                    </p>
+
+                    <h6>By: “ViewsOfAngola”</h6><br>
+                </div>
+
+            </div>
+
+            <div class="blog">
+                <video src="../static/videos/video1.mp4"></video>
+                <div>
+                    <h3>Província do Uige, Angola.</h3>
+                    <p>
+                        A província do Uíge, localizada no norte de Angola, faz fronteira com a República
+                        Democrática do Congo e é conhecida por suas paisagens exuberantes, cultura vibrante e grande
+                        potencial econômico. A região tem um clima tropical úmido, com vastas áreas de florestas e
+                        rios, tornando-se ideal para atividades agropecuárias e ecoturismo.
+                        O Uíge destaca-se pela sua fertilidade, sendo um dos principais produtores de café robusta
+                        no país, uma cultura que remonta ao período colonial e continua a ser uma das principais
+                        fontes de renda da região.
+                        <span><a href="">Instagram</a></span>
+                    </p>
+
+                    <h6>By: “ViewsOfAngola”</h6><br>
+                </div>
+            </div>
+
+            <div class="add-blog">
+                <div class="add"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="blogs">
+            <div class="blog">
+                <video src="../static/videos/video3.mp4"></video>
+                <div>
+                    <h3>Conheça brevemente o nosso país</h3>
+                    <p>
+                        Angola é terra de força, resiliência e esperança. Das cicatrizes da guerra ergueram-se
+                        sonhos, e do passado de lutas nasceu um futuro de reconstrução. Cada rua pavimentada, cada
+                        edifício erguido, cada sorriso estampado no rosto do nosso povo é prova de que Angola não se
+                        dobra diante das dificuldades—ela renasce, avança e cresce.
+                        O 4 de fevereiro não é apenas uma data no calendário; é um símbolo da coragem de um povo que
+                        se levantou contra a opressão em busca da sua independência. É a lembrança de que liberdade
+                        e soberania foram conquistadas com suor, sacrifício e sangue daqueles que acreditaram num
+                        amanhã melhor.
+                        Hoje, celebramos não apenas o passado, mas também o presente e o futuro de uma nação que
+                        continua a evoluir. Porque ser angolano é carregar no peito a chama da resistência e o
+                        desejo incessante de progresso.
+                        <span>Instagram</span>
+                    </p>
+
+                    <h6>By: “ViewsOfAngola”</h6><br>
+                </div>
+            </div>
+
+            <div class="blog">
+                <img src="bb.jpg">
+                <div>
+                    <h3>Praias de Angola, Beleza Natural e Encanto Tropical</h3>
+                    <p>
+                        Angola possui um litoral extenso e deslumbrante, banhado pelo Oceano Atlântico, repleto de
+                        praias paradisíacas que encantam turistas nacionais e estrangeiros. As praias angolanas
+                        combinam paisagens exóticas, águas cristalinas e um clima agradável, tornando-se destinos
+                        perfeitos para lazer, esportes aquáticos e turismo ecológico.
+                        <span><a href="">Instagram</a></span>
+                    </p>
+
+                    <h6>By: “ViewsOfAngola”</h6><br>
+                </div>
+
+            </div>
+
+            <div class="blog">
+                <video src="../static/videos/video1.mp4"></video>
+                <div>
+                    <h3>Província do Uige, Angola.</h3>
+                    <p>
+                        A província do Uíge, localizada no norte de Angola, faz fronteira com a República
+                        Democrática do Congo e é conhecida por suas paisagens exuberantes, cultura vibrante e grande
+                        potencial econômico. A região tem um clima tropical úmido, com vastas áreas de florestas e
+                        rios, tornando-se ideal para atividades agropecuárias e ecoturismo.
+                        O Uíge destaca-se pela sua fertilidade, sendo um dos principais produtores de café robusta
+                        no país, uma cultura que remonta ao período colonial e continua a ser uma das principais
+                        fontes de renda da região.
+                        <span><a href="">Instagram</a></span>
+                    </p>
+
+                    <h6>By: “ViewsOfAngola”</h6><br>
+                </div>
+            </div>
+
+
+
+    <script>
+        let blogs = document.querySelectorAll('.blog');
+        let blogPrincipal = document.querySelector('#blogPrincipal');
+        let blogPrincipalVideo = blogPrincipal.querySelector('video');
+        let blogPrincipalTitle = blogPrincipal.querySelector('h3');
+        let blogPrincipalDescription = blogPrincipal.querySelector('p');
+        let blogPrincipalAuthor = blogPrincipal.querySelector('h4');
+
+        blogs.forEach((blog) => {
+            blog.addEventListener("click", () => {
+                let videoElement = blog.querySelector("video");
+                let titleElement = blog.querySelector("h3");
+                let descriptionElement = blog.querySelector("p");
+                let authorElement = blog.querySelector("h6");
+
+                if (videoElement && titleElement && descriptionElement && authorElement) {
+                    blogPrincipalVideo.src = videoElement.src;
+                    blogPrincipalVideo.play(); // Opcional: inicia o vídeo automaticamente
+                    blogPrincipalTitle.textContent = titleElement.textContent;
+                    blogPrincipalDescription.innerHTML = descriptionElement.innerHTML;
+                    blogPrincipalAuthor.textContent = `By: ${authorElement.textContent}`;
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
