@@ -432,6 +432,7 @@ header .menu-btn:hover {
     
     position: fixed;
     align-items: center;
+    justify-content: center;
     bottom: 3vh;
     right: 3vw;
     background-color: #FFB901;
