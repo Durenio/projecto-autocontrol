@@ -15,9 +15,9 @@
 
 }
 
-.sep-princ{
+.sep-princ {
 
-    
+
     display: flex;
     gap: 3px;
     width: max-content;
@@ -41,12 +41,12 @@
 
 .sep-princ .medio {
     width: 70px;
-    
+
 }
 
 .sep-princ .peq {
     width: 8px;
-    
+
 }
 
 .text {
@@ -128,14 +128,17 @@ body .topoheader .info_contacto {
     color: black !important;
 
 }
-body .topoheader .info_contacto .contacto_tel{
+
+body .topoheader .info_contacto .contacto_tel {
 
     margin-left: 130px !important;
     display: flex;
     align-items: center !important;
 
 }
-body .topoheader .info_contacto div .wpp, .tel{
+
+body .topoheader .info_contacto div .wpp,
+.tel {
 
 
     display: flex;
@@ -144,7 +147,7 @@ body .topoheader .info_contacto div .wpp, .tel{
 }
 
 
-body .topoheader .info_contacto div .wpp{
+body .topoheader .info_contacto div .wpp {
 
     margin-left: 35px !important;
 
@@ -224,7 +227,7 @@ header nav ul {
     align-items: center;
     margin-right: 100px;
 
-    
+
 }
 
 header nav ul li:not(:last-child) {
@@ -232,18 +235,18 @@ header nav ul li:not(:last-child) {
 
 }
 
-header nav{
+header nav {
 
     margin-right: 100px;
     justify-content: space-between;
 
-    display:flex ;
+    display: flex;
 }
 
 
 header nav ul li {
     list-style-type: none;
-    font-weight:600;
+    font-weight: 600;
     font-size: 18px;
     font-family: Open Sans, sans-serif;
     color: #090909;
@@ -277,7 +280,7 @@ header nav ul li a:hover {
 
 
 
-header nav  button,
+header nav button,
 .menu-transparent a button {
 
     font-weight: 500;
@@ -427,17 +430,28 @@ header .menu-btn:hover {
     background-color: #0909090d;
 }
 
+.fixed-btn {
 
-.voltarinicio {
-    
     position: fixed;
-    align-items: center;
-    justify-content: center;
+    z-index: 1;
     bottom: 3vh;
     right: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.voltarinicio {
+
+
+    align-items: center;
+    justify-content: center;
     background-color: #FFB901;
     padding: 5px;
-    z-index: 1;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     display: none;
     transition: 1s;
@@ -448,6 +462,46 @@ header .menu-btn:hover {
 .voltarinicio img {
     height: 28px;
 
+}
+
+
+.pulser {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-image: url(../whatsapp-logo-icon-free-png.webp);
+    border-radius: 50%;
+    position: relative;
+}
+
+.pulser::after {
+    animation: pulse 1000ms cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.4);
+        opacity: 0.4;
+    }
+}
+
+.pulser::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: green;
+    border-radius: 50%;
+    z-index: -1;
 }
 
 .caminho ul {
@@ -481,7 +535,7 @@ header .menu-btn:hover {
 
 /* INICIO RODAPÉ: final da página */
 footer {
-    
+
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #000;
@@ -496,11 +550,11 @@ footer h4 {
     font-weight: 600;
     color: #FFF;
     font-size: 21px;
-    font-family: 'Source Sans 3', sans-serif; 
+    font-family: 'Source Sans 3', sans-serif;
 
 }
 
-footer ul{
+footer ul {
 
     display: flex;
     flex-direction: column;
