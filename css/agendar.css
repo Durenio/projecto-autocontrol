@@ -44,7 +44,7 @@
         justify-content: center;
         display: flex;
         gap: 60px;
-        font-family: 'Noto Sans TC', sans-serif ;
+        font-family: 'Poppins', sans-serif;
 
     }
 
@@ -124,12 +124,9 @@
         font-weight: 600;
 
     }
-    .formulario button:hover{
-        background-color: transparent;
-        color: #96A4D3;
-        border: 2px solid orange ;
-    }
+
     .contactfisico{
+        
         width: 50%;
         height: 100%;
 
