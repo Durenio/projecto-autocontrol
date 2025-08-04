@@ -92,7 +92,7 @@
     .sobre_nos .text p{
         
         font-weight: 200;
-        line-height: 15px;
+        line-height: 25px;
     }
     .missao p, .visao p, .valores p{
         font-weight: 200;
@@ -219,4 +219,5 @@
     
 
 }
+
 
