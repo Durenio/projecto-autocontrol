@@ -45,8 +45,8 @@
     }
 
     header .logo .img1 {
-    margin-left: 50px;
-    
+        margin-left: 50px;
+
     }
 
     footer {
@@ -89,12 +89,16 @@
         width: 100%;
 
     }
-    .sobre_nos .text p{
-        
+
+    .sobre_nos .text p {
+
         font-weight: 200;
-        line-height: 25px;
+        line-height: 18px;
     }
-    .missao p, .visao p, .valores p{
+
+    .missao p,
+    .visao p,
+    .valores p {
         font-weight: 200;
     }
 
@@ -110,29 +114,32 @@
         margin: 0px 25px;
 
     }
-    .formulario{
-        
+
+    .formulario {
+
         width: 86%;
         padding: 0 25px;
-        
-    }
-    .contactfisico{
-        width: 90%;
-        padding: 0 25px;
-        
 
     }
-    
-    .contactoss{
+
+    .contactfisico {
+        width: 90%;
+        padding: 0 25px;
+
+
+    }
+
+    .contactoss {
         flex-direction: column;
         gap: 12vh;
     }
 
-    .contacto .text p{
+    .contacto .text p {
 
         text-align: left;
     }
-        .contacto .text h2{
+
+    .contacto .text h2 {
 
         text-align: left;
         margin-bottom: 10px;
@@ -152,7 +159,8 @@
         font-size: 25px;
 
     }
-    .slaider .slaide .sep-princ{
+
+    .slaider .slaide .sep-princ {
         left: 20px;
         top: 165px;
     }
@@ -191,12 +199,12 @@
 
 
 
-.depoimento .servicos{
+    .depoimento .servicos {
 
 
-   gap: 120px;
-    
-}
+        gap: 120px;
+
+    }
 
 
     .depoimento p {
@@ -211,13 +219,36 @@
         height: 220px;
     }
 
-        .sobre_nos .img_banner div {
+    .sobre_nos .img_banner div {
         width: 100%;
         height: 220px;
     }
 
+    .container-slaide {
+
+        overflow: visible;
+
+        flex-direction: column;
+
+
+    }
+
+    .paginas-slaide {
+
+        
+        flex-direction: column;
+    }
+
+    .depoimentos .btn_mov{
+
+        display: none;
+    }
+
+    .depoimentos{
     
+
+    width: 94vw;
 
 }
 
-
+}
