@@ -33,6 +33,7 @@
     display: flex;
         align-items: center;
     justify-content: center;
+    background-color:  #f5f7fb;
 }
 
 .paginas-slaide{
@@ -41,6 +42,7 @@
     width: 100vw;
     height: auto;
     display: flex; 
+    background-color:  #f5f7fb;
 }
 
 
