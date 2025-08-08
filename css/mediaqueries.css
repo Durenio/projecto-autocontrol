@@ -251,5 +251,33 @@
 
 }
 
+    
+    .carrossel {
+
+        margin: 0 !important;
+        padding: 30px 30px !important;
+        flex-direction: column;
+        gap: 30px !important;
+    }
+
+    #blogPrincipal img {
+        height: 250px !important;
+    }
+
+    #blogPrincipal{
+
+        width: 100% !important;
+    }
+    .blog {
+
+        width: 90% !important;
+    }
+
+    .blogs {
+            justify-content: center;
+        align-items: center;
+    }
+
 }
+
 
