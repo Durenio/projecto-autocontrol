@@ -191,22 +191,23 @@
 
 .depoimento .servico img{
 
-    width: 80%;
-    height: 50%;
-    border: 0.5px solid #c0985b;
+    width: 45%;
+    height: 40%;
+    border: 0.5px solid #2e2e2eee;
+    padding: 5px;
     position: absolute;
-    top: -28%;
+    top: -20%;
 
  }
 
  .depoimento .servico div{
 
-    width: 20%;
-    height: 15%;
+    width: 18%;
+    height: 13%;
     background-color: #000;
 
     position: absolute;
-    top: 14%;
+    top: 16%;
 
  }
 
@@ -247,3 +248,4 @@
     font-size: 12px;
       
 }
+
