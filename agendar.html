@@ -18,30 +18,38 @@
 
 <body>
 
+    <div id="topoheader"></div>
     <div class="topoheader">
         <div class="info_contacto">
             <img src="marker_50px.png" alt="">
             <p>Benfica Rua Direita do BFA</p>
             <div class="contacto_tel">
                 <div class="tel">
-                    <img src="phone_24px.png" alt="">
-                    <p>+244 923 000 000</p>
+                    <a href="tel:244946944500">
+                        <img src="phone_24px.png" alt="">
+                        <p>+244 946 944 500</p>
+                    </a>
                 </div>
 
                 <div class="wpp">
-                    <img src="whatsapp_30px.png" alt="">
-                    <p> +244 923 000 000</p>
+
+                    <a href="https://wa.me/244929929300" target="_blank">
+
+
+                        <img src="whatsapp_30px.png" alt="">
+                        <p> +244 929 929 300</p>
+                    </a>
                 </div>
             </div>
 
         </div>
 
         <div class="redes_sociais">
-            <a href="https://www.facebook.com/profile.php?id=61557776519899" target="_blank">
+            <a href="https://www.facebook.com/autocontrolcentroautomotivo/" target="_blank">
                 <img src="facebook.png" alt="" class="img">
             </a>
 
-            <a href="https://www.instagram.com/nac_studio24/" target="_blank">
+            <a href="https://www.instagram.com/autocontrol_oficial/" target="_blank">
                 <img src="instagram.png" alt="">
             </a>
 
@@ -53,8 +61,9 @@
 
 
         <div class="logo">
-            <img src="Sem título-1.svg" alt="" class="img1">
-
+            <a href="index.html">
+                <img src="Sem título-1.svg" alt="" class="img1">
+            </a>
 
         </div>
 
@@ -64,8 +73,9 @@
                 <li><a href="#sobre">Sobre nós</a></li>
                 <li><a href="#servicos">Serviços</li></a>
                 <li><a href="agendar.html" class="open">Agendamento</a></li>
-                <li><a href="">Blog</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contactos</a></li>
+                <li><a href="#">Loja</a></li>
 
             </ul>
             <a href="agendar.html"><button>Agendar agora</button></a>
@@ -81,12 +91,13 @@
                     alt=""></button>
             <nav>
                 <ul>
-                    <li><a href="index.html" class="open">Inicio</a></li>
-                    <li><a href="#sobre">Sobre nós</a></li>
-                    <li><a href="#servicos">Serviços</li></a>
-                    <li><a href="agendar.html">Agendamento</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#sobre" onclick="fecharmenu()">Sobre nós</a></li>
+                    <li><a href="index.html#servicos" onclick="fecharmenu()">Serviços</li></a>
+                    <li><a href="agendar.html" class="open">Agendamento</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contactos</a></li>
+                    <li><a href="#">Loja</a></li>
 
 
                 </ul>
@@ -96,6 +107,7 @@
 
         </div>
     </section>
+
     <div class="banner">
         <div class="filtro"></div>
     </div>
@@ -112,6 +124,15 @@
     </div>
 
     <main>
+        <div class="fixed-btn">
+            <div class="voltarinicio" id="iniciobtn">
+                <a href="#topoheader" onclick="voltaraoinicio()"><img src="up_50px.png" alt=""></a>
+            </div>
+
+            <a href="https://wa.me/244929929300" target="_blank">
+                <div class="pulser"></div>
+            </a>
+        </div>
         <section class="contacto">
             <div class="text">
                 <h2>Agende seu atendimento com a AutoControl</h2>
@@ -168,7 +189,10 @@
 
                 <div class="iframe">
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.297722935778!2d13.156841774180844!3d-8.944689091113291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a518aa9686e212d%3A0xd7f2f7747828c39f!2sAuto%20Control%20-%20Oficinas%20Multimarcas!5e0!3m2!1spt-PT!2sao!4v1754483543628!5m2!1spt-PT!2sao" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.297722935778!2d13.156841774180844!3d-8.944689091113291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a518aa9686e212d%3A0xd7f2f7747828c39f!2sAuto%20Control%20-%20Oficinas%20Multimarcas!5e0!3m2!1spt-PT!2sao!4v1754483543628!5m2!1spt-PT!2sao"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
 
@@ -178,16 +202,20 @@
                     <div class="contact first">
                         <h3>Contactos</h3>
                         <hr class="separador">
-
                         <div class="txtcontact">
 
                             <ul>
                                 <li><img src="icons8_loc.ico" alt=""><a href="">Benfica Rua Direita do BFA</a></li>
-                                <li><img src="icons_phone.ico" alt=""><a href="">+244 923 000 000 <br>+244 923 000
-                                        000</a></li>
-                                <li><img src="icons_whatsapp.ico" alt=""><a href="">+244 923 000 000 <br>+244 923 000
-                                        000</a></li>
-                                <li><img src="icons_envelope.ico" alt=""><a href=""> contacto.autocontril@gmail.com</a>
+                                <li><img src="icons_phone.ico" alt=""><a href="tel:244946944500">+244 929 929 300
+                                        <br>+244
+                                        946 944
+                                        500</a></li>
+                                <li><img src="icons_whatsapp.ico" alt=""><a href="https://wa.me/244929929300">+244 929
+                                        929
+                                        300 <br>+244 946 944
+                                        500</a></li>
+                                <li><img src="icons_envelope.ico" alt=""><a href="mailto:contacto.autocontrol@gmail.com"
+                                        contacto.autocontrol@gmail.com="">contacto.autocontrol@gmail.com</a>
                                 </li>
 
 
@@ -200,8 +228,11 @@
                         <hr class="separador">
                         <div class="txtcontact">
                             <ul>
-                                <li><img src="icons8_loc.ico" alt=""><a href="">Benfica Rua Direita do BFA</a></li>
-                                <li><img src="icons_envelope.ico" alt=""><a href=""> contacto.autocontril@gmail.com</a>
+                                <li><img src="facebook.png" alt=""><a
+                                        href="https://www.facebook.com/autocontrolcentroautomotivo/">autocontol.oficina</a>
+                                </li>
+                                <li><img src="instagram.png" alt=""><a
+                                        href="https://www.instagram.com/autocontrol_oficial/"> @autocontrol.oficina</a>
                                 </li>
 
 
@@ -228,17 +259,20 @@
                 <p>AutoControl Luanda a sua escolha segura para serviços automotivos de confiança.Tecnologia,
                     transparência
                     e excelência em cada atendimento</p>
-                <a href="#"><img src="icons_facebook.ico"></a>
-                <a href="#"><img src="icons_instagram.ico"></a>
+                <a href="https://www.facebook.com/autocontrolcentroautomotivo/"><img src="icons_facebook.ico"></a>
+                <a href="https://www.instagram.com/autocontrol_oficial/"><img src="icons_instagram.ico"></a>
 
             </div>
             <div class="listalojas">
                 <h4>Redes Sociais</h4>
                 <ul>
                     <li><img src="icons8_loc.ico" alt=""><a href="">Benfica Rua Direita do BFA</a></li>
-                    <li><img src="icons_phone.ico" alt=""><a href="">+244 923 000 000 <br>+244 923 000 000</a></li>
-                    <li><img src="icons_whatsapp.ico" alt=""><a href="">+244 923 000 000 <br>+244 923 000 000</a></li>
-                    <li><img src="icons_envelope.ico" alt=""><a href=""> contacto.autocontril@gmail.com</a></li>
+                    <li><img src="icons_phone.ico" alt=""><a href="tel:244946944500">+244 946 944 500 <br>+244 929 929
+                            300</a></li>
+                    <li><img src="icons_whatsapp.ico" alt=""><a href="https://wa.me/244929929300">+244 929 929 300
+                            <br>+244 946 944 500 </a></li>
+                    <li><img src="icons_envelope.ico" alt=""><a href="mailto:contacto.autocontrol@gmail.com"
+                            contacto.autocontrol@gmail.com=""> contacto.autocontrol@gmail.com</a></li>
 
 
                 </ul>
@@ -283,4 +317,3 @@
 </body>
 
 </html>
-
