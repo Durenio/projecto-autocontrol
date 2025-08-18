@@ -145,6 +145,15 @@ body .topoheader .info_contacto div .wpp,
     align-items: center !important;
 
 }
+body .topoheader .info_contacto div a{
+
+    display: flex;
+    text-decoration: none;
+    color: black !important;
+    align-items: center !important;
+
+
+}
 
 
 body .topoheader .info_contacto div .wpp {
@@ -647,3 +656,4 @@ footer .listalojas li img {
 
 
 /* FIM RODAPÉ Autor Durão Gaspar */
+
