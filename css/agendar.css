@@ -109,6 +109,7 @@
     .formulario .displayinput input,.formulario .displayinput select{
         width: 90% !important;
         height: 100% !important;
+        background-color: white;
     }
 
     .formulario button{
@@ -193,3 +194,4 @@
     height: 100%;
     width:100% ;
 }
+
