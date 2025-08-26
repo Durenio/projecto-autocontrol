@@ -237,38 +237,38 @@
                         <div class="servicos animate-slide-up">
 
                             <div class="servico">
-                                <img src="icones/pecas-do-carro.png" alt="">
+                                <img class="img-servico" src="#" alt="">
                                 <h3>Ar condicionado</h3>
                                 <p>Garantimos ar limpo e fresco, sem odores, com manutenção preventiva que prolonga a
                                     vida útil do equipamento.Diagnóstico completo do sistema, detecção de fugas, recarga
                                     de gás refrigerante, etc..</p>
 
 
-                                <div></div>
+                                <div class="icone-div"><img src="icones/pecas-do-carro.png" alt=""></div>
                                 <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
 
                             <div class="servico">
-                                <img src="icones/chave-inglesa.png" alt="">
+                                <img class="img-servico" src="#" alt="">
                                 <h3>Diagnostico Automotivo</h3>
                                 <p> Utilizamos tecnologia moderna para identificar falhas elétricas e mecânicas – desde
                                     avarias no motor até no sistema elétrico ou de climatização.</p>
 
 
-                                <div></div>
+                                <div class="icone-div"><img src="icones/chave-inglesa.png" alt=""></div>
                                 <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
                             <div class="servico">
-                                <img src="icones/chassis.png" alt="">
+                                <img class="img-servico" src="#" alt="">
                                 <h3>Suspensão</h3>
                                 <p>Serviços de alinhamento e balanceamento de rodas, inspeção e substituição de
                                     amortecedores, foles e terminais. Garantia de estabilidade, segurança e melhor
                                     desempenho da condução.</p>
 
 
-                                <div></div>
+                                <div class="icone-div"><img src="icones/chassis.png" alt=""></div>
                                 <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
@@ -286,35 +286,35 @@
                         <div class="servicos">
 
                             <div class="servico">
-                                <img src="icones/pneus.png" alt="">
+                                <img class="img-servico" src="#" alt="">
                                 <h3>Pneus</h3>
                                 <p>Venda de pneus multimarcas, montagem, reparação de furos, alinhamento e balanceamento
                                     profissional.</p>
 
-                                <div></div>
+                                <div class="icone-div"><img src="icones/pneus.png" alt=""></div>
                                 <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
 
                             <div class="servico">
-                                <img src="icones/oleo-de-carro.png" alt="">
+                                <img class="img-servico" src="#" alt="">
                                 <h3>Troca de Óleo e Filtro</h3>
                                 <p>Substituição de óleo de motor, filtros de óleo, ar, combustível e lubrificantes
                                     originais de qualidade.</p>
 
 
-                                <div></div>
+                                <div class="icone-div"><img src="icones/oleo-de-carro.png" alt=""></div>
                                 <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
                             <div class="servico">
-                                <img src="icones/farol.png" alt="">
+                                <img class="img-servico" src="#" alt="">
                                 <h3>Pintura & Bate Chapa</h3>
                                 <p>Reparação de amolgadelas, retocagem de pintura, polimento e tratamento anticorrosão.
                                 </p>
 
 
-                                <div></div>
+                                <div class="icone-div"><img src="icones/farol.png" alt=""></div>
                                 <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
@@ -329,27 +329,16 @@
 
                         <div class="servicos">
 
-                            <div class="servico">
-                                <img src="icones/pneus.png" alt="">
-                                <h3>Recauchutagem de Pneus</h3>
-                                <p>Processo de renovação do piso do pneu, preservando a carcaça e aumentando sua
-                                    durabilidade.
-                                    uma solução mais econômica e sustentável em comparação à compra de pneus novos</p>
-
-                                <div></div>
-                                <a href="agendar.html">Agendar Checkup</a>
-
-                            </div>
 
                             <div class="servico">
-                                <img src="icones/pecas-do-carro (1).png" alt="">
+                                <img class="img-servico" src="#" alt="">
                                 <h3>Peças Automotivas</h3>
                                 <p>Venda de componentes originais e genéricos para veículos multimarcas: filtros,
                                     correias, amortecedores, radiadores, compressores de ar‑condicionado, entre outros.
                                 </p>
 
 
-                                <div></div>
+                                <div class="icone-div"><img src="icones/pecas-do-carro (1).png" alt=""></div>
                                 <a href="agendar.html">Agendar Checkup</a>
 
                             </div>
@@ -398,13 +387,24 @@
             <div class="displayinput">
 
                 <div>
-                    <label for="">Hora desejada</label>
-                    <input type="text">
+                    <label for="">Tipo de serviço</label>
+                    <select name="" id="" required>
+                        <option selected disabled value=""></option>
+                        <option value="">Ar condicionado</option>
+                        <option value="">Diagnostico Automotivo</option>
+                        <option value="">Suspensão</option>
+                        <option value="">Pneus</option>
+                        <option value="">Troca de Óleo e Filtro</option>
+                        <option value="">Pintura & Bate Chapa</option>
+                        <option value="">Peças Automotivas</option>
+
+                    </select>
+
                 </div>
 
                 <div>
-                    <label for="">Hora desejada</label>
-                    <input type="text">
+                    <label for="">Data desejada</label>
+                    <input type="date">
                 </div>
 
             </div>
@@ -465,10 +465,11 @@
                     <div class="txtcontact">
                         <ul>
                             <li><img src="facebook.png" alt=""><a
-                                    href="https://www.facebook.com/autocontrolcentroautomotivo/">autocontol.oficina</a>
+                                    href="https://www.facebook.com/autocontrolcentroautomotivo/">Auto Contol - Oficina
+                                    do Ar Condicionado</a>
                             </li>
                             <li><img src="instagram.png" alt=""><a
-                                    href="https://www.instagram.com/autocontrol_oficial/"> @autocontrol.oficina</a>
+                                    href="https://www.instagram.com/autocontrol_oficial/"> autocontrol_oficial</a>
                             </li>
 
 
@@ -531,7 +532,7 @@
     <div class="direitos_reservados">
         <p>
             Copyrights <img src="direitos_reservados_img.png" height="14px" class="Autor Durão Gaspar"> 2025<span>
-                Desenvolvido por-ADDI</span>. Todos os
+            </span>. Todos os
             direitos reservados-AutoControl
 
         </p>
@@ -547,6 +548,3 @@
 </body>
 
 </html>
-
-
-
