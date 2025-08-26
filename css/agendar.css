@@ -44,7 +44,7 @@
         justify-content: center;
         display: flex;
         gap: 60px;
-        font-family: 'Poppins', sans-serif;
+        
 
     }
 
@@ -62,7 +62,7 @@
         margin-top: 15px;
         margin-bottom: 17px;
     }
-    .formulario input{
+    .formulario input, .formulario select{
         margin-bottom: 30px;
         outline: none;
         padding: 5px 10px;
@@ -101,12 +101,14 @@
 
     .formulario .displayinput div{
         display: flex;
+        
         width: 50%;
+        height: 105px;
         flex-direction: column;
     }
-    .formulario .displayinput input{
+    .formulario .displayinput input,.formulario .displayinput select{
         width: 90% !important;
-        height: 30px;
+        height: 100% !important;
     }
 
     .formulario button{
