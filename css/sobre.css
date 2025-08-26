@@ -3,14 +3,14 @@
     font-weight: 500;
     text-align: justify;
     line-height: 30px;
-    font-family: 'Source Sans 3', sans-serif;
+    
     
    
 
 }
 
 .missao, .visao, .valores{
-    font-family: 'Source Sans 3', sans-serif;
+    
     display: flex;
     justify-content: center;
     padding: 40px 100px ;
