@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-family: Open Sans, sans-serif;
+    
     gap: 15px;
     margin: 60px 80px;
     
@@ -81,7 +81,7 @@
 
 
 .pq_escolher{
-    font-family: Open Sans, sans-serif;
+    
     display: flex;
     
     flex-wrap: wrap;
