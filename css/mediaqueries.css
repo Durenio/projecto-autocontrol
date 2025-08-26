@@ -91,7 +91,9 @@
     }
 
     .sobre_nos .text p {
-
+        
+        text-align: start;
+        font-size: 15px;
         font-weight: 200;
         line-height: 26px;
     }
