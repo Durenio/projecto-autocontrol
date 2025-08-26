@@ -3,6 +3,7 @@
     margin: 0;
     scroll-behavior: smooth;
     user-select: none;
+    font-family: 'Poppins' !important;
 
 }
 
@@ -75,7 +76,7 @@ main {
 .banner_text {
     z-index: 1;
     position: relative;
-    font-family: 'Source Sans 3', sans-serif;
+    
     width: 100%;
     top: 250px;
     margin-bottom: 290px;
@@ -122,7 +123,7 @@ body .topoheader {
 
 body .topoheader .info_contacto {
     margin-left: 100px !important;
-    font-family: Arial, sans-serif !important;
+    
     align-items: center !important;
     display: flex;
     color: black !important;
@@ -257,7 +258,7 @@ header nav ul li {
     list-style-type: none;
     font-weight: 600;
     font-size: 18px;
-    font-family: Open Sans, sans-serif;
+    
     color: #090909;
 
 
@@ -268,7 +269,7 @@ header nav a {
     text-decoration: none;
     font-weight: 500;
     font-size: 17px;
-    font-family: Open Sans, sans-serif;
+    
     color: #090909;
 
 
@@ -295,7 +296,7 @@ header nav button,
     font-weight: 500;
     font-size: 16px;
     border-radius: 5px;
-    font-family: Open Sans, sans-serif;
+    
     padding: 10px 12px;
     background-color: #FFB901;
     border: none;
@@ -403,7 +404,7 @@ header .menu-btn:hover {
     list-style-type: none;
     font-weight: 800;
     font-size: 12.5px;
-    font-family: Open Sans, sans-serif;
+    
     color: #090909;
     text-transform: uppercase;
 
@@ -418,7 +419,7 @@ header .menu-btn:hover {
     text-decoration: none;
     font-weight: 700;
     font-size: 12.5px;
-    font-family: Open Sans, sans-serif;
+    
     color: #090909;
 
 }
@@ -527,7 +528,7 @@ header .menu-btn:hover {
 
     font-weight: 500;
     font-size: 17px;
-    font-family: Open Sans, sans-serif;
+    
     color: #ffffff;
     text-decoration: none;
 
@@ -546,7 +547,7 @@ header .menu-btn:hover {
 footer {
 
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     background-color: #000;
     display: flex;
     justify-content: space-around;
@@ -559,7 +560,7 @@ footer h4 {
     font-weight: 600;
     color: #FFF;
     font-size: 21px;
-    font-family: 'Source Sans 3', sans-serif;
+    
 
 }
 
@@ -641,7 +642,7 @@ footer .listalojas li img {
     padding: 10px 100px;
     font-size: 15px;
     font-weight: 500;
-    font-family: Open Sans, sans-serif;
+    
 
 }
 
