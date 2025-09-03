@@ -124,7 +124,7 @@
         transition: 0.7s;
         font-size: 15px;
         text-decoration: solid;
-        font-weight: 600;
+        font-weight: 500;
 
     }
 
@@ -194,5 +194,6 @@
     height: 100%;
     width:100% ;
 }
+
 
 
