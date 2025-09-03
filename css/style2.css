@@ -227,11 +227,11 @@
     font-size: 14.5px;
     
     padding: 7px 10px;
-    background-color: transparent;
-    border: 2px solid #FFB901;
+    background-color: #000000;
     align-items: center;
     display: flex;
-    color: #FFB901;
+    color: #ffde01;
+    border-radius: 5px;
     cursor: pointer;
     transition: 0.4s;
     position: absolute;
@@ -258,6 +258,7 @@
     font-size: 12px;
       
 }
+
 
 
 
