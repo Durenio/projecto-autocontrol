@@ -270,13 +270,13 @@ header nav a {
     font-weight: 500;
     font-size: 17px;
     
-    color: #FFB901;
+    color: #000000;
 
 
 }
 
 .open {
-    color: ##FFB901 !important;
+    color: #000000 !important;
     border-bottom: 2px solid #FFB901;
 
 
@@ -657,6 +657,7 @@ footer .listalojas li img {
 
 
 /* FIM RODAPÉ Autor Durão Gaspar */
+
 
 
 
