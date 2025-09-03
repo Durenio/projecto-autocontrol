@@ -227,10 +227,10 @@
     font-size: 14.5px;
     
     padding: 7px 10px;
-    background-color: #000000;
+    background-color: #ffde01;
     align-items: center;
     display: flex;
-    color: #ffde01;
+    color: #000000;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s;
@@ -258,6 +258,7 @@
     font-size: 12px;
       
 }
+
 
 
 
