@@ -113,7 +113,7 @@
     }
 
     .formulario button{
-        background-color: orange;
+        background-color: #ffde01;
         color: #000;
         border: 2px solid transparent;
         text-align: center;
@@ -194,4 +194,5 @@
     height: 100%;
     width:100% ;
 }
+
 
