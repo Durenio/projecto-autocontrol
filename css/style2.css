@@ -245,9 +245,9 @@
  .depoimento .servico h3{
     margin-top: 20px;
     margin-bottom: 10px;
-    font-weight: 400;
+    font-weight: 500;
    font-size: 18px;
-   color: #ffde01;
+   color: #000000;
 }
 
  .depoimento .servico p{
@@ -258,6 +258,7 @@
     font-size: 12px;
       
 }
+
 
 
 
