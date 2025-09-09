@@ -60,6 +60,7 @@
     position: absolute;
     right: -30px;
     top: 30px;
+    box-shadow: -3px 0px 9px rgb(255 255 255 / 16%);
     background-color: #FFB901;
     background-size: cover;
     background-repeat: no-repeat;
@@ -258,6 +259,7 @@
     font-size: 12px;
       
 }
+
 
 
 
