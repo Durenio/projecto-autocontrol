@@ -189,7 +189,6 @@
     width: 45%;
     height: 40%;
     border-radius: 5px;
-    border: 0.5px solid #2e2e2eee;
     position: absolute;
     top: -20%;
 
@@ -253,6 +252,7 @@
     font-size: 12px;
       
 }
+
 
 
 
