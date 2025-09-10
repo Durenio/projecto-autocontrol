@@ -40,10 +40,6 @@
     
 }
 
-.img_banner {
-    position: relative;
-}
-
 .img_banner div{
     margin-right: 20px;
     width: 480px;
@@ -259,6 +255,7 @@
     font-size: 12px;
       
 }
+
 
 
 
