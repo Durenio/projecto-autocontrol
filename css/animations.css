@@ -5,3 +5,8 @@
     transition: all 0.8s ease-out;
   }
   
+
+.animate-slide-up.active {
+    opacity: 1;
+    transform: translateY(0);
+}
