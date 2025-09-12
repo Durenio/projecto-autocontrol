@@ -91,6 +91,8 @@
 .slaider .slaide a button {
 
     font-weight: 500;
+    position: relative;
+    top: 23px;
     font-size: 16px;
     border-radius: 5px;
     font-weight: 600;
@@ -199,6 +201,7 @@
     background-color: rgba(0, 0, 0, 0.052);
 
 }
+
 
 
 
